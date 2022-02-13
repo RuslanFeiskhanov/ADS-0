@@ -1,5 +1,3 @@
-// Copyright 2021 NNTU-CS
-
 int gcd(int a, int b) {
     int c = 0;
     bool f = 0;
@@ -9,11 +7,11 @@ int gcd(int a, int b) {
         else
             a = b-a;
         if (a%b == 0) {
-            c = b;  
+            c = b;
             f = 1;
         }
         if (b%a == 0) {
-            c = a;  
+            c = a;
             f = 1;
         }
     }
